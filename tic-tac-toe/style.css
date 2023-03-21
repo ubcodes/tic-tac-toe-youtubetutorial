@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Radio+Canada:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'Chelsea Market', cursive;
+}
+
+body{
+    background: url(./bg.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    margin-top: 90px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 3em;
+    color: whitesmoke;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    margin: 2px;
+    width: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.btn:disabled{
+    color: black;
+    cursor: no-drop;
+}
+
+.result {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.reset{
+    text-align: center;
+}
+
+#reset{
+    border: 1px solid black;
+    cursor: pointer;
+    color: black ;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 24px;
+    margin: 35px;
+    transition: all 0.1s ease-in-out;
+}
+#reset:hover{
+    color: white;
+    background-color: black;
+}
+
+.btn.x-symbol {
+    color: red;
+}
+
+.btn.o-symbol {
+    color: blue;
+}
