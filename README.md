@@ -32,6 +32,9 @@ The tutorial utilizes the following technologies:
 - CSS: For styling the game elements and providing an engaging visual design.
 - JavaScript: For implementing the game logic, interactivity, and updating the game state.
 
+## Demo
+Here is a demo of the Tic Tac Toe Game. You can try it out by following this link - https://tic-tac-toe-tutorial.netlify.app/
+
 ## Contributing
 
 Contributions to this tutorial repository are not accepted as the tutorial serves as a learning resource. However, feel free to create your own projects based on the knowledge gained from this tutorial.
